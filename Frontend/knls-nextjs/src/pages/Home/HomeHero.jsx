@@ -12,10 +12,10 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 
-import Hero1 from "../../assests/banner.jpg";
-import Hero2 from "../../assests/banner.jpg";
-import Hero3 from "../../assests/banner.jpg";
-import Hero4 from "../../assests/banner.jpg";
+import Hero1 from "../../assests/image.png";
+import Hero2 from "../../assests/image1.png";
+import Hero3 from "../../assests/image2.png";
+import Hero4 from "../../assests/image3.png";
 
 const slides = [
   {
