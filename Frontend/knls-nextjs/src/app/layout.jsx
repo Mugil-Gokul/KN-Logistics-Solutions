@@ -4,8 +4,7 @@ import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata = {
-  title: "KNLS Logistics",
-  description: "Freight & Logistics Solutions",
+  title: "KN Logistics Solutions - Freight & Logistics Services",
 };
 
 export default function RootLayout({ children }) {
