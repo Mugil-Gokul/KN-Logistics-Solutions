@@ -16,27 +16,11 @@ import {
 
 const freightServices = [
   {
-    icon: Globe2,
-    title: "Air Freight",
-    description:
-      "Fast and dependable air transportation solutions designed to keep critical shipments moving efficiently across domestic and international markets.",
-    number: "01",
-    path: "/services/air-freight",
-  },
-  {
-    icon: Ship,
-    title: "Ocean Freight",
-    description:
-      "Flexible sea freight services supporting containerized, project, and specialized cargo with reliable global connectivity.",
-    number: "02",
-    path: "/services/ocean-freight",
-  },
-  {
     icon: Container,
     title: "Ground Transportation",
     description:
       "Comprehensive road transport solutions connecting businesses through efficient regional, national, and cross-border delivery networks.",
-    number: "03",
+    number: "01",
     path: "/services/ground-transportation",
   },
   {
@@ -44,24 +28,51 @@ const freightServices = [
     title: "Warehousing & Distribution",
     description:
       "Integrated storage and distribution services that improve inventory visibility, operational efficiency, and supply chain performance.",
-    number: "04",
+    number: "02",
     path: "/services/warehousing-distribution",
   },
   {
-    icon: Zap,
-    title: "Temperature-Controlled Logistics",
+    icon: MapPinned,
+    title: "Specialized Logistics Services",
     description:
-      "Specialized transportation solutions designed to maintain product integrity for sensitive and time-critical shipments.",
-    number: "05",
-    path: "/services/reefer",
+      "Beyond standard freight movement, KN Logistics Solutions provides specialized logistics support for businesses that require flexible, site-specific, or time-sensitive transportation services.",
+    number: "03",
+    path: "/services/specialized-services",
+    cta: "Explore Specialized Services",
   },
+  {
+    icon: ShieldCheck,
+    title: "Reefer Transportation",
+    description:
+      "Our reefer transportation services are designed for temperature-sensitive freight, with a strong focus on produce and perishable goods. KN Logistics Solutions helps maintain cargo quality from pickup to delivery through reliable refrigerated transport and shipment visibility.",
+    number: "04",
+    path: "/services/reefer",
+    cta: "Request Reefer Service",
+  },
+
   {
     icon: MapPinned,
     title: "Last-Mile & Mid-Mile Delivery",
     description:
       "Reliable fulfillment and delivery services that connect products to businesses and consumers with a seamless customer experience.",
-    number: "06",
+    number: "05",
     path: "/services/last-mile-mid-mile",
+  },
+  {
+    icon: Globe2,
+    title: "Air Freight",
+    description:
+      "Fast and dependable air transportation solutions designed to keep critical shipments moving efficiently across domestic and international markets.",
+    number: "06",
+    path: "/services/air-freight",
+  },
+  {
+    icon: Ship,
+    title: "Ocean Freight",
+    description:
+      "Flexible sea freight services supporting containerized, project, and specialized cargo with reliable global connectivity.",
+    number: "07",
+    path: "/services/ocean-freight",
   },
 ];
 
@@ -123,7 +134,7 @@ const HomeServices = () => {
             <span className="w-2.5 h-2.5 rounded-full bg-[#F5821F]" />
 
             <span className="uppercase tracking-[3px] text-sm text-white/70">
-              Services
+              Our Services
             </span>
           </motion.div>
 
@@ -141,11 +152,11 @@ const HomeServices = () => {
             transition={{
               duration: 1,
             }}
-            className="text-5xl lg:text-7xl font-black leading-[1.05] text-white"
+            className="text-5xl lg:text-6xl font-black leading-[1.05] text-white"
           >
-            Comprehensive Logistics
+            Specialized Freight Solutions
             <span className="block py-4 text-transparent bg-clip-text bg-gradient-to-r from-[#F5821F] to-[#ffb067]">
-              Solutions For Every Stage
+              For Complex Supply Chains
             </span>
           </motion.h2>
 
@@ -156,10 +167,12 @@ const HomeServices = () => {
             viewport={{ once: true }}
             className="mt-8 text-lg leading-relaxed text-white/60 max-w-3xl"
           >
-            Supporting modern supply chains through integrated transportation,
-            warehousing, and distribution services. KN Logistics Solutions
-            delivers flexible logistics strategies tailored to evolving business
-            requirements across local and global markets.
+            KN Logistics Solutions supports businesses with reliable freight
+            transportation, specialized equipment, temperature-controlled
+            logistics, and value-added supply chain services. From oversized
+            flatbed loads and refrigerated produce shipments to final mile
+            delivery, drayage, shunting, and transloading, our team helps move
+            cargo safely, efficiently, and on schedule.
           </motion.p>
         </div>
 
@@ -230,16 +243,12 @@ const HomeServices = () => {
                         whileHover={{
                           rotate: 45,
                           scale: 1.15,
-                          boxShadow:
-                            "0px 0px 35px rgba(245,130,31,0.45)",
+                          boxShadow: "0px 0px 35px rgba(245,130,31,0.45)",
                         }}
                         whileTap={{ scale: 0.95 }}
                         className="w-16 h-16 rounded-2xl bg-[#F5821F] flex items-center justify-center shadow-2xl flex-shrink-0"
                       >
-                        <ArrowUpRight
-                          className="text-white"
-                          size={26}
-                        />
+                        <ArrowUpRight className="text-white" size={26} />
                       </motion.button>
                     </Link>
                   </div>
@@ -278,19 +287,7 @@ const HomeServices = () => {
 
             <div className="absolute inset-0 bg-gradient-to-t from-[#071120] via-[#071120]/40 to-transparent" />
 
-            <div className="absolute inset-0 p-8 lg:p-10 flex flex-col justify-between">
-              <div className="flex items-start justify-between">
-                <div className="w-20 h-20 rounded-3xl bg-white/10 border border-white/10 flex items-center justify-center">
-                  <MapPinned className="text-[#F5821F]" size={36} />
-                </div>
-
-                <div className="rounded-full border border-white/10 bg-white/10 px-5 py-3">
-                  <span className="text-sm tracking-[3px] uppercase text-white/70">
-                    Integrated Logistics
-                  </span>
-                </div>
-              </div>
-
+            <div className="absolute inset-0 p-8 lg:p-10 flex flex-col justify-end">
               <div>
                 <h3 className="text-4xl lg:text-5xl font-black text-white leading-tight">
                   End-To-End Supply Chain Support
@@ -304,7 +301,7 @@ const HomeServices = () => {
 
                 <div className="grid grid-cols-2 gap-6 mt-10">
                   <div>
-                    <h4 className="text-5xl font-black text-white">6+</h4>
+                    <h4 className="text-5xl font-black text-white">7+</h4>
 
                     <p className="mt-2 text-white/50 uppercase text-sm">
                       Core Services
@@ -312,9 +309,7 @@ const HomeServices = () => {
                   </div>
 
                   <div>
-                    <h4 className="text-5xl font-black text-white">
-                      Global
-                    </h4>
+                    <h4 className="text-5xl font-black text-white">Global</h4>
 
                     <p className="mt-2 text-white/50 uppercase text-sm">
                       Network Reach

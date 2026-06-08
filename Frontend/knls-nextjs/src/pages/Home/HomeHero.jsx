@@ -20,47 +20,47 @@ import Hero4 from "../../assests/banner.jpg";
 const slides = [
   {
     image: Hero1,
-    title: "Transportation",
-    highlight: "Management",
+    title: "Flatbed & Specialized",
+    highlight: "Freight Solutions",
     description:
-      "Reliable freight movement powered by optimized routes, real-time visibility, and scalable transportation solutions.",
+      "Move oversized cargo, wide loads, lumber, steel, construction materials, and heavy machinery with dependable flatbed transportation and specialized equipment support.",
     icon: Truck,
-    stats: "98%",
-    statLabel: "On-Time Deliveries",
-    chips: ["FTL", "LTL", "Flat Bed", "Last Mile"],
+    stats: "",
+    statLabel: "",
+    chips: ["Flatbeds", "Wide Loads", "Rolltite", "RGN"],
   },
   {
     image: Hero2,
-    title: "Warehousing",
-    highlight: "Solutions",
+    title: "Temperature-Controlled",
+    highlight: "Reefer Transport",
     description:
-      "Flexible warehousing infrastructure designed to support inventory growth, fulfillment, and distribution efficiency.",
+      "Protect produce, perishables, and sensitive freight with reliable reefer transportation designed to support freshness, cold chain visibility, and on-time delivery.",
     icon: Warehouse,
-    stats: "24/7",
-    statLabel: "Warehouse Operations",
-    chips: ["Storage", "Distribution", "Fulfillment", "Cross Docking"],
+    stats: "",
+    statLabel: "",
+    chips: ["Reefers", "Produce", "Cold Chain", "Perishables"],
   },
   {
     image: Hero3,
-    title: "Global Freight",
-    highlight: "Services",
+    title: "Final Mile &",
+    highlight: "White Glove Delivery",
     description:
-      "Integrated air, ocean, and land freight solutions connecting businesses to global markets with confidence.",
+      "Create a better delivery experience with final mile logistics, white glove service, careful handling, and customer-focused delivery coordination.",
     icon: Globe,
-    stats: "Global",
-    statLabel: "Network Coverage",
-    chips: ["Air Freight", "Ocean Freight", "Customs", "International"],
+    stats: "",
+    statLabel: "",
+    chips: ["Final Mile", "White Glove", "B2C", "Delivery"],
   },
   {
     image: Hero4,
-    title: "Supply Chain",
-    highlight: "Reliability",
+    title: "Transloading, Drayage",
+    highlight: "& Site Support",
     description:
-      "End-to-end logistics strategies focused on resilience, transparency, and long-term operational excellence.",
+      "Support complex supply chain operations with shunting, transloading in Ontario, BC, and Nova Scotia, drayage services, dump trucks, and expedited team-driver shipments.",
     icon: ShieldCheck,
-    stats: "100%",
-    statLabel: "Customized Solutions",
-    chips: ["Planning", "Visibility", "Optimization", "Analytics"],
+    stats: "",
+    statLabel: "",
+    chips: ["Transloading", "Drayage", "Shunting", "Expedited"],
   },
 ];
 
@@ -138,7 +138,7 @@ export default function HomeHero() {
               </div>
 
               {/* HEADING */}
-              <h1 className="text-5xl sm:text-6xl lg:text-8xl font-black leading-[0.95]">
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-[0.95]">
                 {slide.title}
 
                 <span className="block py-4 text-transparent bg-clip-text bg-gradient-to-r from-[#F5821F] to-[#ffb067] mt-2">

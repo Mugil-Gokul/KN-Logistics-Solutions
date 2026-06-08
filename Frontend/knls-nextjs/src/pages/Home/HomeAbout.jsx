@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 
 const features = [
-  "20+ Years of Industry Experience",
+  "8+ Years of Industry Experience",
   "Live Visibility Through Real-Time Tracking",
   "Global Freight Management",
   "From Global Transport to Last Mile",
@@ -81,7 +81,7 @@ const HomeAbout = () => {
                   </p>
 
                   <h4 className="text-white font-bold text-lg">
-                    20+ Years
+                    8+ Years
                   </h4>
                 </div>
               </div>

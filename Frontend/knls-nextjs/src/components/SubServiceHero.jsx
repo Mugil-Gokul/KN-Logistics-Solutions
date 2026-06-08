@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const SubServiceHero = ({ icon, title, subtitle, desc, image }) => {
   return (
-    <section className="relative min-h-[100vh] flex items-center overflow-hidden pt-16">
+    <section className="relative h-[110vh] flex items-center overflow-hidden pt-16">
 
       {/* Background */}
       <div className="absolute inset-0">
@@ -39,10 +39,10 @@ const SubServiceHero = ({ icon, title, subtitle, desc, image }) => {
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          className="mt-8 text-5xl md:text-7xl font-black text-white leading-[1.05]"
+          className="mt-8 text-4xl md:text-6xl font-black text-white leading-[1.05]"
         >
           {title}
-          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#F5821F] to-[#ffb067]">
+          <span className="block py-4 text-transparent bg-clip-text bg-gradient-to-r from-[#F5821F] to-[#ffb067]">
             {subtitle}
           </span>
         </motion.h1>
@@ -50,7 +50,7 @@ const SubServiceHero = ({ icon, title, subtitle, desc, image }) => {
         <motion.p
           initial={{ opacity: 0, y: 25 }}
           animate={{ opacity: 1, y: 0 }}
-          className="mt-8 max-w-2xl text-lg text-white/70"
+          className="mt-8 max-w-4xl text-lg text-white/70"
         >
           {desc}
         </motion.p>

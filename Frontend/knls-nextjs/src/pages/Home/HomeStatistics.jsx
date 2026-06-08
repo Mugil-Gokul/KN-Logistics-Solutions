@@ -11,7 +11,7 @@ import {
 const statistics = [
   {
     icon: Globe2,
-    number: "20+",
+    number: "8+",
     title: "Years of Experience",
     description:
       "Two decades of experience delivering dependable transportation, warehousing, and supply chain solutions across diverse industries.",

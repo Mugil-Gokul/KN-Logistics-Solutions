@@ -15,14 +15,6 @@ const navLinks = [
     link: "/services",
     dropdown: [
       {
-        name: "Air Freight",
-        link: "/services/air-freight",
-      },
-      {
-        name: "Ocean Freight",
-        link: "/services/ocean-freight",
-      },
-      {
         name: "Ground Transportation",
         link: "/services/ground-transportation",
       },
@@ -31,12 +23,24 @@ const navLinks = [
         link: "/services/warehousing-distribution",
       },
       {
+        name: "Specialized Services",
+        link: "/services/specialized-services",
+      },
+      {
         name: "Reefer Transportation",
         link: "/services/reefer",
       },
       {
         name: "Last-Mile (B2C) & Mid-Mile (B2B)",
         link: "/services/last-mile-mid-mile",
+      },
+      {
+        name: "Air Freight",
+        link: "/services/air-freight",
+      },
+      {
+        name: "Ocean Freight",
+        link: "/services/ocean-freight",
       },
     ],
   },

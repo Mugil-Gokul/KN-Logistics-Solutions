@@ -116,9 +116,15 @@ const AboutOverview = () => {
             <div className="w-20 h-[3px] bg-[#F5821F] rounded-full mt-6" />
 
             <p className="mt-8 text-lg leading-relaxed text-slate-500">
-              KNLS has built a reputation for delivering reliable transportation
-              and freight management solutions tailored to the evolving needs of
-              modern businesses.
+              KN Logistics Solutions has built a strong reputation for delivering
+reliable transportation and freight management services that adapt to
+the evolving needs of modern businesses. From flatbed transportation
+and specialized freight to temperature-controlled shipments and
+time-sensitive deliveries, our team focuses on creating solutions that
+prioritize efficiency, visibility, and dependability. By combining
+industry expertise with a customer-first approach, we help businesses
+overcome transportation challenges while ensuring freight arrives
+safely and on schedule.
             </p>
           </motion.div>
         </div>
@@ -137,15 +143,21 @@ const AboutOverview = () => {
             </div>
 
             <h3 className="mt-8 text-4xl lg:text-5xl font-black text-[#07111D]">
-              20+ Years Of Experience
+              8+ Years Of Experience
             </h3>
 
             <div className="w-20 h-[3px] bg-[#F5821F] rounded-full mt-6" />
 
             <p className="mt-8 text-lg leading-relaxed text-slate-500">
-              With more than 20 years of experience in transportation and supply
-              chain management, KNLS has successfully supported businesses
-              across diverse industries.
+              With more than 8 years of experience in transportation and supply
+chain management, KN Logistics Solutions has successfully supported
+businesses across a variety of industries, including construction,
+manufacturing, retail, agriculture, and industrial operations. Our
+experience allows us to understand the unique challenges associated
+with different types of freight and supply chain requirements. This
+knowledge enables us to provide practical, flexible, and reliable
+solutions that help customers improve efficiency while reducing
+transportation complexity.
             </p>
           </motion.div>
 
@@ -204,9 +216,15 @@ const AboutOverview = () => {
             <div className="w-20 h-[3px] bg-[#F5821F] rounded-full mt-6" />
 
             <p className="mt-8 text-lg leading-relaxed text-slate-500">
-              Our freight management network connects businesses with reliable
-              transportation solutions across key domestic and international
-              trade routes.
+              Our extensive freight network connects businesses with dependable
+transportation solutions across regional, national, and international
+markets. Through strong relationships with carriers, logistics
+partners, and transportation providers, we are able to coordinate
+freight movement efficiently while maintaining visibility throughout
+the shipping process. Whether supporting domestic transportation,
+cross-border shipments, or specialized logistics requirements, we
+remain focused on delivering consistent service and operational
+reliability.
             </p>
           </motion.div>
         </div>
@@ -231,8 +249,15 @@ const AboutOverview = () => {
             <div className="w-20 h-[3px] bg-[#F5821F] rounded-full mt-6" />
 
             <p className="mt-8 text-lg leading-relaxed text-slate-500">
-              At KNLS, customer satisfaction and employee safety remain at the
-              core of our operations.
+              At KN Logistics Solutions, customer satisfaction and safety remain at
+the center of everything we do. We believe successful logistics
+partnerships are built on trust, communication, and consistent
+performance. Our team is committed to maintaining safe operating
+practices, supporting driver and employee well-being, and delivering
+responsive customer service throughout every stage of the logistics
+process. By focusing on long-term relationships and continuous
+improvement, we help customers achieve dependable transportation
+outcomes they can rely on.
             </p>
           </motion.div>
 

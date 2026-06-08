@@ -11,73 +11,92 @@ import SubServiceCTA from "@/components/SubServiceCTA";
 /* FEATURES */
 const features = [
   {
-    icon: "🏗️",
-    title: "Specialized Flatbed Transportation",
-    desc: "Our core transportation solution designed for oversized, heavy-haul, construction, industrial, and project cargo. We provide secure loading, specialized equipment, and dependable delivery for freight that requires open-deck transportation.",
+    icon: "🚛",
+    title: "Wide Load & Oversized Load Transportation",
+    desc: "We support wide load and oversized load transportation for freight that requires careful planning, specialized equipment, and reliable coordination. Our logistics team helps manage transportation requirements for large, heavy, or irregular cargo moving across regional and long-haul routes.",
     featured: true,
   },
   {
+    icon: "🪵",
+    title: "Rolltite Trailers for Lumber & Steel",
+    desc: "For lumber, steel, and other freight requiring side-loading flexibility with added cargo protection, KN Logistics Solutions offers Rolltite trailer solutions. These trailers help protect freight from weather exposure while supporting efficient loading and unloading while maintaining transportation efficiency.",
+  },
+  {
+    icon: "🏗️",
+    title: "Low-Pro & RGN Trailer Support",
+    desc: "Heavy machinery and equipment often require low-profile or removable gooseneck trailer options. KN Logistics Solutions supports low-pro and RGN transportation requirements for machinery, industrial equipment, agricultural equipment, and project cargo that needs specialized loading access and lower deck height.",
+  },
+  {
+    icon: "🏭",
+    title: "Construction & Industrial Freight",
+    desc: "We support construction companies, manufacturers, industrial suppliers, and project teams with freight services designed for demanding cargo. From building materials and steel products to large equipment movement, our transportation solutions are tailored to site schedules, load requirements, and delivery timelines.",
+  },
+  {
     icon: "🚚",
-    title: "FTL & LTL Transportation",
-    desc: "Flexible full-truckload and less-than-truckload solutions supporting regional, long-haul, and dedicated freight requirements.",
+    title: "FTL & Dedicated Transportation",
+    desc: "In addition to specialized hauling, we provide Full Truck Load (FTL) and dedicated transportation services for businesses requiring consistent capacity, route reliability, and dependable freight movement across regional and long-haul transportation lanes.",
   },
   {
-    icon: "📦",
-    title: "Dry Van Services",
-    desc: "Fully enclosed trailers designed to protect cargo from weather, damage, and external environmental conditions.",
-  },
-  {
-    icon: "🚛",
-    title: "Specialized Equipment Options",
-    desc: "Access to flatbeds, dry vans, and Super B equipment for oversized and high-capacity transportation requirements.",
+    icon: "📡",
+    title: "Reliable Shipment Visibility",
+    desc: "Our ground transportation services are supported by communication, shipment tracking, documentation workflows, and operational coordination that help customers stay informed throughout every stage of the transportation process.",
   },
 ];
 
 /* HIGHLIGHTS */
 const highlights = [
-  "Specialized flatbed transportation",
-  "FTL & LTL freight solutions",
-  "Dry van cargo protection",
-  "Real-time shipment tracking",
-  "POD & compliance support",
+  "Flatbed transportation for open-deck freight",
+  "Wide load and oversized cargo support",
+  "Rolltite trailers for lumber and steel",
+  "Low-pro and RGN trailer options",
+  "Heavy machinery transportation solutions",
+  "Construction and industrial freight support",
+  "FTL, LTL, and dedicated freight services",
+  "Shipment visibility and operational coordination",
 ];
 
 const GroundTransportation = () => {
   return (
     <SubServiceLayout>
-
       {/* ================= HERO ================= */}
       <SubServiceHero
         icon={<FaTruckMoving />}
-        title="Ground Transportation"
-        subtitle="Flatbed, Freight & Specialized Hauling"
-        desc="Comprehensive ground transportation solutions with a strong focus on flatbed transportation, oversized cargo movement, real-time tracking, and dependable freight delivery services."
+        title="Ground Transportation & Flatbed Freight Services"
+        subtitle="Flatbeds, Oversized Loads, Heavy Machinery & Specialized Hauling"
+        desc="KN Logistics Solutions provides dependable ground transportation services with specialized support for flatbed freight, wide loads, oversized cargo, lumber, steel, construction materials, and heavy machinery. With flexible equipment options and experienced logistics coordination, we help businesses move complex freight safely, efficiently, and on schedule."
         image="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=2000&auto=format&fit=crop"
       />
 
       {/* ================= OVERVIEW ================= */}
       <SubServiceOverview
-        title="Specialized Ground"
-        highlight="Transportation Solutions"
-        desc="KN Logistics Solutions provides dependable ground transportation services tailored to a wide range of freight requirements. Our primary expertise lies in flatbed transportation for oversized, project, construction, and industrial cargo requiring specialized handling and equipment. In addition, we support Full Truck Load (FTL), Less Than Truck Load (LTL), and dry van transportation services through a reliable logistics network that ensures safe, efficient, and timely cargo movement. Supported by real-time tracking and operational compliance standards, we deliver visibility and reliability throughout every shipment."
+        tag="Ground Transportation"
+        title="Ground Transportation"
+        highlight="Built For Complex Freight"
+        intro="From oversized loads and heavy machinery to industrial freight and construction materials, KN Logistics Solutions provides specialized transportation solutions designed to move complex cargo safely, efficiently, and with complete operational visibility."
+        description={`KN Logistics Solutions supports a wide range of ground transportation requirements, from standard freight movement to highly specialized open-deck hauling solutions. Our transportation services are designed for businesses that need dependable freight movement, flexible equipment options, and reliable logistics coordination across regional and long-haul routes.
+
+Flatbed transportation remains one of our core service offerings, supporting freight that cannot be transported through traditional enclosed trailers. We regularly move oversized cargo, wide loads, industrial freight, construction materials, steel products, lumber shipments, and heavy machinery that require specialized handling and transportation planning.
+
+For customers with unique cargo requirements, we coordinate specialized equipment options including standard flatbeds, Rolltite trailers, low-profile trailers, and removable gooseneck (RGN) trailers. Whether freight requires weather-sensitive protection, side-loading flexibility, open-deck access, or heavy-haul transportation planning, our team helps identify the most effective transportation solution for each shipment.
+
+In addition to specialized hauling services, KN Logistics Solutions supports Full Truck Load (FTL), Less Than Truck Load (LTL), and dedicated freight transportation requirements. Through proactive communication, shipment visibility, and operational coordination, we help businesses move freight safely, efficiently, and with confidence throughout every stage of the transportation process.`}
         points={highlights}
         image="https://images.unsplash.com/photo-1519003722824-194d4455a60c?q=80&w=1600&auto=format&fit=crop"
       />
 
       {/* ================= FEATURES ================= */}
       <SubServiceFeatures
-        title="Why Choose Our Ground Transportation Services"
-        subtitle="Industry-focused transportation solutions with specialized flatbed capabilities, flexible equipment options, shipment visibility, and dependable freight delivery."
+        title="Ground Transportation Solutions Designed For Specialized Freight"
+        subtitle="Supporting oversized cargo, heavy equipment, industrial freight, construction materials, lumber, steel, and project shipments through specialized transportation planning, equipment selection, and dependable logistics execution."
         features={features}
       />
 
       {/* ================= CTA ================= */}
       <SubServiceCTA
-        title="Need Reliable Flatbed Transportation?"
-        desc="Partner with KN Logistics Solutions for specialized flatbed transportation, oversized cargo movement, and dependable freight services backed by experienced logistics professionals."
-        button="Request Transportation Support"
+        title="Looking For Reliable Flatbed & Heavy Haul Transportation?"
+        desc="Whether you need flatbed transportation, oversized load support, heavy machinery hauling, Rolltite trailer solutions, or dedicated freight services, our team is ready to provide the equipment, planning, and logistics expertise needed to keep your cargo moving safely and efficiently."
+        button="Request Ground Transportation Support"
       />
-
     </SubServiceLayout>
   );
 };

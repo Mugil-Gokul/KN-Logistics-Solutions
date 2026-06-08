@@ -107,7 +107,7 @@ const HomeTrackingSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
             viewport={{ once: true }}
-            className="relative overflow-hidden rounded-[40px] bg-gradient-to-br from-[#071120] via-[#0B1E35] to-[#102847] p-10 lg:p-14 shadow-[0_20px_80px_rgba(0,0,0,0.08)]"
+            className="relative flex flex-col justify-evenly overflow-hidden rounded-[40px] bg-gradient-to-br from-[#071120] via-[#0B1E35] to-[#102847] p-10 lg:p-14 shadow-[0_20px_80px_rgba(0,0,0,0.08)]"
           >
             <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-[#F5821F]/10 rounded-full blur-[120px]" />
 
@@ -116,38 +116,18 @@ const HomeTrackingSection = () => {
                 <Radar size={48} className="text-[#F5821F]" />
               </div>
 
-              <h3 className="mt-10 text-5xl lg:text-6xl font-black text-white leading-tight">
-                Track Your
-                <span className="block text-[#F5821F]">Shipment Anytime</span>
-              </h3>
+              <div>
+                <h3 className="mt-10 text-5xl lg:text-6xl font-black text-white leading-tight">
+                  Track Your
+                  <span className="block text-[#F5821F]">Shipment Anytime</span>
+                </h3>
 
-              <p className="mt-8 text-lg text-white/65 leading-relaxed max-w-xl">
-                Keep an eye on your cargo so you always know where it is and
-                when it is expected to arrive. Our real-time tracking
-                capabilities provide greater visibility and peace of mind
-                throughout the shipping process.
-              </p>
-
-              <div className="grid sm:grid-cols-2 gap-5 mt-12">
-                <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
-                  <p className="text-white/50 text-sm uppercase tracking-[2px]">
-                    Visibility
-                  </p>
-
-                  <h4 className="text-white text-xl font-bold mt-3">
-                    Real-Time Updates
-                  </h4>
-                </div>
-
-                <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
-                  <p className="text-white/50 text-sm uppercase tracking-[2px]">
-                    Tracking
-                  </p>
-
-                  <h4 className="text-white text-xl font-bold mt-3">
-                    End-To-End Monitoring
-                  </h4>
-                </div>
+                <p className="mt-10 text-lg text-white/65 leading-relaxed max-w-xl">
+                  Keep an eye on your cargo so you always know where it is and
+                  when it is expected to arrive. Our real-time tracking
+                  capabilities provide greater visibility and peace of mind
+                  throughout the shipping process.
+                </p>
               </div>
             </div>
           </motion.div>

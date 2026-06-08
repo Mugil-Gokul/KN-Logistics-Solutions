@@ -110,7 +110,7 @@ const AboutValues = () => {
             viewport={{ once: true }}
             className="text-lg lg:text-xl leading-relaxed text-white/55 max-w-3xl"
           >
-            For more than 20 years, KNLS has built its reputation on
+            KNLS has built its reputation on
             reliability, customer service, operational excellence, and a
             commitment to delivering transportation and supply chain
             solutions that businesses can trust.

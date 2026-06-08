@@ -15,10 +15,56 @@ import {
 
 const services = [
   {
+    title: "Ground Transportation",
+    icon: FaTruckMoving,
+    number: "01",
+    desc: "Our ground transportation services provide dependable freight movement across regional, national, and cross-border routes. KN Logistics Solutions supports Full Truck Load (FTL), specialized transportation requirements, and time-sensitive shipments through a network focused on reliability, visibility, and on-time delivery.",
+    image:
+      "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=1600&auto=format&fit=crop",
+    link: "/services/ground-transportation",
+  },
+  {
+    title: "Warehousing & Distribution",
+    icon: FaWarehouse,
+    number: "02",
+    desc: "KN Logistics Solutions offers warehousing and distribution services designed to improve inventory management, storage efficiency, and order fulfillment performance. Our solutions help businesses streamline supply chain operations while maintaining flexibility to meet changing customer demands.",
+    image:
+      "https://images.unsplash.com/photo-1553413077-190dd305871c?q=80&w=1600&auto=format&fit=crop",
+    link: "/services/warehousing-distribution",
+  },
+  {
+    title: "Specialized Services",
+    icon: FaShippingFast,
+    number: "03",
+    desc: "Beyond traditional freight transportation, we provide specialized logistics services tailored to unique operational requirements. Our capabilities include final mile delivery, white glove service, dump truck support, expedited shipments with team drivers, shunting operations, transloading, and drayage solutions.",
+    image:
+      "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=1600&auto=format&fit=crop",
+    link: "/services/specialized-services",
+  },
+  {
+    title: "Reefer Transportation",
+    icon: FaBoxes,
+    number: "04",
+    desc: "Our reefer transportation services support temperature-sensitive freight with a strong focus on produce, perishables, and refrigerated cargo. We help maintain product integrity throughout transit while providing dependable cold chain logistics and shipment visibility.",
+    image:
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1600&auto=format&fit=crop",
+    link: "/services/reefer",
+  },
+  {
+    title: "Last-Mile (B2C) & Mid-Mile (B2B)",
+    icon: FaRoute,
+    number: "05",
+    desc: "Our last-mile and mid-mile delivery solutions connect distribution centers, businesses, and end customers through efficient transportation networks. We focus on reliable execution, delivery visibility, customer satisfaction, and seamless freight movement between key supply chain stages.",
+    image:
+      "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?q=80&w=1600&auto=format&fit=crop",
+    link: "/services/last-mile-mid-mile",
+  },
+
+  {
     title: "Air Freight",
     icon: FaShippingFast,
-    number: "01",
-    desc: "Fast and reliable air freight solutions for time-sensitive shipments, ensuring secure cargo movement through an extensive global airline network.",
+    number: "06",
+    desc: "KN Logistics Solutions provides fast and dependable air freight services for urgent and time-critical shipments. Through a global transportation network, we help businesses move cargo efficiently while maintaining visibility, security, and reliable transit schedules.",
     image:
       "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1600&auto=format&fit=crop",
     link: "/services/air-freight",
@@ -27,46 +73,10 @@ const services = [
     title: "Ocean Freight",
     icon: FaShip,
     number: "02",
-    desc: "Comprehensive ocean freight services providing cost-effective international shipping solutions for full-container and less-than-container cargo.",
+    desc: "Our ocean freight solutions support international trade through flexible and cost-effective shipping options. Whether managing full-container or less-than-container shipments, we help businesses navigate global supply chains with dependable service and coordinated logistics support.",
     image:
       "https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=1600&auto=format&fit=crop",
     link: "/services/ocean-freight",
-  },
-  {
-    title: "Ground Transportation",
-    icon: FaTruckMoving,
-    number: "03",
-    desc: "Efficient road transportation services designed to ensure dependable cargo delivery across regional and cross-border supply chains.",
-    image:
-      "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=1600&auto=format&fit=crop",
-    link: "/services/ground-transportation",
-  },
-  {
-    title: "Warehousing & Distribution",
-    icon: FaWarehouse,
-    number: "04",
-    desc: "Modern warehousing and distribution solutions with inventory management, order fulfillment, and seamless supply chain support.",
-    image:
-      "https://images.unsplash.com/photo-1553413077-190dd305871c?q=80&w=1600&auto=format&fit=crop",
-    link: "/services/warehousing-distribution",
-  },
-  {
-    title: "Reefer Logistics",
-    icon: FaBoxes,
-    number: "05",
-    desc: "Temperature-controlled logistics services for perishable and sensitive cargo, maintaining product integrity throughout transit.",
-    image:
-      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1600&auto=format&fit=crop",
-    link: "/services/reefer",
-  },
-  {
-    title: "Last-Mile (B2C) & Mid-Mile (B2B)",
-    icon: FaRoute,
-    number: "06",
-    desc: "Specialized delivery solutions connecting distribution centers, businesses, and end customers with speed, visibility, and reliability.",
-    image:
-      "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?q=80&w=1600&auto=format&fit=crop",
-    link: "/services/last-mile-mid-mile",
   },
 ];
 
@@ -113,11 +123,11 @@ const ServiceMain = () => {
               transition={{ duration: 0.8 }}
               className="mt-8 text-5xl md:text-7xl lg:text-[90px] font-black leading-[0.92] text-[#07111D]"
             >
-              Comprehensive
+              Integrated
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-[#F5821F] via-[#ff9f45] to-[#ffbc7d]">
-                Logistics Solutions
+                Transportation & Logistics
               </span>
-              <span className="block">For Global Trade</span>
+              <span className="block">Solutions</span>
             </motion.h2>
           </div>
 
@@ -128,11 +138,13 @@ const ServiceMain = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="max-w-xl text-lg leading-relaxed text-slate-500"
           >
-            KNLS provides integrated logistics solutions across air freight,
-            ocean freight, ground transportation, warehousing, reefer logistics,
-            and last-mile delivery. Backed by over 20 years of industry
-            expertise, we help businesses move cargo efficiently through
-            reliable and scalable supply chain solutions.
+            KN Logistics Solutions provides a complete range of transportation,
+            warehousing, and specialized logistics services designed to support
+            modern supply chains. From air and ocean freight to ground
+            transportation, reefer services, final-mile delivery, and
+            specialized freight solutions, our team helps businesses move cargo
+            safely, efficiently, and on schedule while maintaining visibility
+            throughout the logistics process.
           </motion.p>
         </div>
 

@@ -27,14 +27,6 @@ const quickLinks = [
 
 const services = [
   {
-    name: "Air Freight",
-    path: "/services/air-freight",
-  },
-  {
-    name: "Ocean Freight",
-    path: "/services/ocean-freight",
-  },
-  {
     name: "Ground Transportation",
     path: "/services/ground-transportation",
   },
@@ -43,12 +35,24 @@ const services = [
     path: "/services/warehousing-distribution",
   },
   {
-    name: "Reefer",
+    name: "Specialized Services",
+    path: "/services/specialized-services",
+  },
+  {
+    name: "Reefer Transportation",
     path: "/services/reefer",
   },
   {
-    name: "Last-Mile & Mid-Mile Delivery",
+    name: "Last-Mile (B2C) & Mid-Mile (B2B)",
     path: "/services/last-mile-mid-mile",
+  },
+  {
+    name: "Air Freight",
+    path: "/services/air-freight",
+  },
+  {
+    name: "Ocean Freight",
+    path: "/services/ocean-freight",
   },
 ];
 
@@ -208,20 +212,6 @@ const Footer = () => {
             <p className="text-white/40">
               © 2026 KNLS Logistics. All Rights Reserved.
             </p>
-
-            {/* <div className="flex gap-8">
-              {["Privacy Policy", "Terms & Conditions", "Support"].map(
-                (item, index) => (
-                  <Link
-                    key={index}
-                    to="/"
-                    className="text-white/40 hover:text-white transition-all"
-                  >
-                    {item}
-                  </Link>
-                )
-              )}
-            </div> */}
           </div>
         </div>
       </div>

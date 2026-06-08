@@ -12,33 +12,63 @@ import {
 
 const faqData = [
   {
-    question: "What logistics services does KN Logistics Solutions provide?",
+    question: "Do you provide flatbed transportation for oversized loads?",
     answer:
-      "We offer a complete range of logistics and transportation solutions including Full Truck Load (FTL), route optimization, cargo handling, warehousing, express freight services, and supply chain support tailored to business requirements.",
+      "Yes. KN Logistics Solutions supports flatbed transportation for wide loads, oversized cargo, lumber, steel, construction materials, and heavy machinery requiring open-deck or specialized trailer support.",
     icon: <FaGlobeAmericas />,
   },
   {
-    question: "Do you handle time-sensitive and urgent shipments?",
+    question: "Do you offer Rolltite trailer services?",
     answer:
-      "Yes. Our express freight and dedicated transportation solutions are designed to support urgent deliveries, ensuring cargo reaches its destination safely and within the required timeline.",
-    icon: <FaClock />,
-  },
-  {
-    question: "How do you ensure cargo safety during transportation?",
-    answer:
-      "Cargo safety is a top priority. We follow strict handling procedures, secure loading practices, route planning, and operational monitoring to minimize risks and ensure reliable shipment movement.",
+      "Yes. Rolltite trailer solutions are available for freight such as lumber and steel where side-loading flexibility and additional cargo protection may be required.",
     icon: <FaShieldAlt />,
   },
   {
-    question: "Can your services be customized for different industries?",
+    question: "Can you move heavy machinery?",
     answer:
-      "Absolutely. We understand that every business has unique logistics requirements. Our team works closely with clients to provide flexible transportation, warehousing, and freight solutions that align with their operational needs.",
+      "Yes. KN Logistics Solutions supports heavy machinery transportation through specialized equipment options, including low-profile and RGN trailer support depending on cargo requirements.",
     icon: <FaSatelliteDish />,
+  },
+  {
+    question: "What type of freight do your reefer services support?",
+    answer:
+      "Our reefer transportation services primarily support produce and perishable freight, along with other temperature-sensitive shipments requiring refrigerated transport.",
+    icon: <FaClock />,
+  },
+  {
+    question: "Do you provide final mile and white glove delivery?",
+    answer:
+      "Yes. KN Logistics Solutions provides final mile delivery and white glove service for shipments requiring careful handling, placement coordination, and a professional customer delivery experience.",
+    icon: <FaShieldAlt />,
+  },
+  {
+    question: "Do you provide dump truck services for construction sites?",
+    answer:
+      "Yes. KN Logistics Solutions supports dump truck services for construction sites, including per-hour rate options for project-based hauling and site support.",
+    icon: <FaGlobeAmericas />,
+  },
+  {
+    question: "Do you offer expedited shipments?",
+    answer:
+      "Yes. Expedited shipments with team drivers are available for urgent and time-sensitive freight that requires faster transit and dedicated coordination.",
+    icon: <FaClock />,
+  },
+  {
+    question: "Where do you provide transloading services?",
+    answer:
+      "KN Logistics Solutions supports transloading services in Ontario, British Columbia, and Nova Scotia.",
+    icon: <FaSatelliteDish />,
+  },
+  {
+    question: "What are drayage services used for?",
+    answer:
+      "Drayage services are used to move containerized freight between ports, rail terminals, warehouses, and customer facilities as part of import, export, and intermodal logistics operations.",
+    icon: <FaGlobeAmericas />,
   },
 ];
 
 export default function ServiceFAQ() {
-  const [active, setActive] = useState(0);
+  const [active, setActive] = useState(null);
 
   return (
     <section className="relative overflow-hidden bg-[#F7F8FA] py-24 lg:py-32">

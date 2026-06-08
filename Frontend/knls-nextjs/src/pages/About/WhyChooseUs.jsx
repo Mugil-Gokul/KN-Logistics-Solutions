@@ -11,7 +11,7 @@ import {
 
 const chooseData = [
   {
-    title: "20+ Years of Experience",
+    title: "8+ Years of Experience",
     icon: <FaShippingFast />,
     desc: "With over two decades of industry expertise, KNLS has built a proven track record in freight management, transportation, and global supply chain solutions across diverse industries.",
   },
@@ -93,7 +93,7 @@ const WhyChooseUs = () => {
             className="max-w-xl"
           >
             <p className="text-lg leading-relaxed text-slate-600">
-              KNLS combines over 20 years of logistics expertise, a proven
+              KNLS combines over 8+ years of logistics expertise, a proven
               global freight network, and customer-focused service to deliver
               reliable, scalable, and efficient supply chain solutions
               worldwide.

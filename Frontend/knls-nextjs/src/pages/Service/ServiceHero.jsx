@@ -89,7 +89,7 @@ export default function ServiceHero() {
             >
               KNLS delivers integrated logistics and supply chain solutions
               across air, ocean, ground transportation, warehousing, reefer
-              logistics, and last-mile distribution. Backed by over 20 years of
+              logistics, and last-mile distribution. Backed by over 8 years of
               industry experience, we help businesses move cargo efficiently,
               securely, and reliably across global markets.
             </motion.p>
@@ -172,7 +172,7 @@ export default function ServiceHero() {
                   },
                   {
                     icon: <FaShieldAlt />,
-                    title: "Temperature-Controlled Logistics",
+                    title: "Specialized Freight Solutions",
                   },
                   {
                     icon: <FaTruckMoving />,
@@ -202,7 +202,7 @@ export default function ServiceHero() {
               <div className="grid grid-cols-2 gap-5 mt-8">
                 {[
                   {
-                    number: "20+",
+                    number: "8+",
                     label: "Years Of Experience",
                   },
                   {
